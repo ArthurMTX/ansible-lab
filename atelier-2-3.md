@@ -66,7 +66,7 @@ ssh-copy-id vagrant@target03
 ```
 
 
-4. **Test de la connectivité avec les Target Hosts**
+8. **Test de la connectivité avec les Target Hosts**
 ```bash
 ansible all -i target01,target02,target03 -m ping
 
@@ -93,4 +93,10 @@ target02 | SUCCESS => {
     "changed": false,
     "ping": "pong"
 }
+```
+
+9. **Nettoyage**
+```bash
+exit
+vagrant destroy -f
 ```
