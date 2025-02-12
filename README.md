@@ -12,3 +12,6 @@
 
 - **Atelier 6 : Configuration de base**  
   [Accéder à Atelier 6](atelier-6.md)
+
+- **Atelier 8 : Idempotence**  
+  [Accéder à Atelier 8](atelier-8.md)
