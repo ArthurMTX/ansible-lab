@@ -15,3 +15,6 @@
 
 - **Atelier 8 : Idempotence**  
   [Accéder à Atelier 8](atelier-8.md)
+
+- **Atelier 10 : Playbooks Apache**  
+  [Accéder à Atelier 10](atelier-10.md)
