@@ -13,7 +13,12 @@ vagrant up
 vagrant ssh control
 ```
 
-3. **Création d'un playbook `chrony.yml`**
+3. **Se rendre dans le repertoire du projet**
+```bash
+cd ansible/projets/ema/
+```
+
+4. **Création d'un playbook `chrony.yml`**
 ```bash
 nano playbooks/chrony.yml
 ```
