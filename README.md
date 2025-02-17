@@ -18,3 +18,6 @@
 
 - **Atelier 10 : Playbooks Apache**  
   [Accéder à Atelier 10](atelier-10.md)
+
+- **Atelier 12 : Handlers**  
+  [Accéder à Atelier 12](atelier-12.md)
