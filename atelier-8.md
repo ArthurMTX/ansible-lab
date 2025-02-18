@@ -134,4 +134,10 @@ rocky | CHANGED | rc=0 | (stdout) Filesystem                  Size  Used Avail U
 suse | CHANGED | rc=0 | (stdout) Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda3       124G  2.8G  118G   3% /
 ``` 
 
-Ici on remarque que chaque exécution retourne exactement le même résultat pour chaque Target Host. Cela confirme que la commande n’altère pas l’état du système (elle est purement informative)
+> Ici on remarque que chaque exécution retourne exactement le même résultat pour chaque Target Host. Cela confirme que la commande n’altère pas l’état du système (elle est purement informative)
+
+15. **Quitter et supprimer**
+```bash
+exit
+vagrant destroy -f
+```
