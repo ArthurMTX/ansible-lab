@@ -166,21 +166,21 @@ suse | SUCCESS => {
 ```bash
 ansible-playbook apache-debian.yml
 ```
-![apache-debian](apache-debian.png)
+![apache-debian](assets/apache-debian.png)
 
 12. **Exécuter le playbook `apache-rocky.yml`**
 
 ```bash
 ansible-playbook apache-rocky.yml
 ```
-![apache-rocky](apache-rocky.png)
+![apache-rocky](assets/apache-rocky.png)
 
 13. **Exécuter le playbook `apache-suse.yml`**
 
 ```bash
 ansible-playbook apache-suse.yml
 ```
-![apache-suse](apache-suse.png)
+![apache-suse](assets/apache-suse.png)
 
 14. **Vérifier les résultats**
 ```
@@ -189,4 +189,10 @@ curl rocky
 curl suse
 ```
 
-![curls](curls.png)
+![curls](assets/curls.png)
+
+15. **Quitter et supprimer**
+```bash
+exit
+vagrant destroy -f
+```
