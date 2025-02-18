@@ -21,3 +21,6 @@
 
 - **Atelier 12 : Handlers**  
   [Accéder à Atelier 12](atelier-12.md)
+  
+- **Atelier 14 : Variables**  
+  [Accéder à Atelier 14](atelier-14.md)
