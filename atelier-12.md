@@ -72,7 +72,7 @@ Aucune sortie, le fichier `chrony.yml` est correct
 ansible-playbook chrony.yml
 ```
 
-![chrony](chrony.png)
+![chrony](assets/chrony.png)
 
 7. **Vérifier l'idempotence** \
 On peut relancer le playbook pour s'assurer qu’aucun changement n’est appliqué si la configuration est déjà en place, si ça indique "ok", c'est que rien n'a changé
@@ -80,7 +80,7 @@ On peut relancer le playbook pour s'assurer qu’aucun changement n’est appliq
 ansible-playbook chrony.yml
 ```
 
-![chrony2](chrony2.png)
+![chrony2](assets/chrony2.png)
 
 8. **Vérifier l'état des services** \
 On peut aussi verifier l'état des services 
