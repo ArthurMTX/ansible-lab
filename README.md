@@ -27,3 +27,6 @@
     
 - **Atelier 15 : Variables enregistrées**
   [Accéder à Atelier 15](atelier-15.md)
+  
+- **Atelier 16 : Facts et variables implicites**
+  [Accéder à Atelier 16](atelier-16.md)
