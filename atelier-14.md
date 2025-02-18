@@ -45,25 +45,25 @@ Aucune sortie, le fichier `myvars1.yml` est correct
 ```bash
 ansible-playbook myvars1.yml
 ```
-![myvars1](myvars1.png)
+![myvars1](assets/myvars1.png)
 
 7. **Exécuter le playbook en précisant `mycar`**
 ```bash
 ansible-playbook myvars1.yml -e mycar="Alpine"
 ```
-![myvars1-mycar](myvars1-mycar.png)
+![myvars1-mycar](assets/myvars1-mycar.png)
 
 8. **Exécuter le playbook en précisant `mybike`**
 ```bash
 ansible-playbook myvars1.yml -e mybike="Suzuki"
 ```
-![myvars1-mybike](myvars1-mybike.png)
+![myvars1-mybike](assets/myvars1-mybike.png)
 
 9. **Exécuter le playbook en précisant `mycar` et `mybike`**
 ```bash
 ansible-playbook myvars1.yml -e mycar="Rolls-Royce" -e mybike="Yamaha" 
 ```
-![myvars1-mycar-mybike](myvars1-mycar-mybike.png)
+![myvars1-mycar-mybike](assets/myvars1-mycar-mybike.png)
 
 10. **Création d'un playbook (set_fact)**
 ```bash
@@ -93,25 +93,25 @@ Aucune sortie, le fichier `myvars2.yml` est correct
 ```bash
 ansible-playbook myvars2.yml
 ```
-![myvars2](myvars2.png)
+![myvars2](assets/myvars2.png)
 
 13. **Exécuter le playbook en précisant `mycar`**
 ```bash
 ansible-playbook myvars2.yml -e mycar="Alpine"
 ```
-![myvars2-mycar](myvars2-mycar.png)
+![myvars2-mycar](assets/myvars2-mycar.png)
 
 14. **Exécuter le playbook en précisant `mybike`**
 ```bash
 ansible-playbook myvars2.yml -e mybike="Suzuki"
 ```
-![myvars2-mybike](myvars2-mybike.png)
+![myvars2-mybike](assets/myvars2-mybike.png)
 
 15. **Exécuter le playbook en précisant `mycar` et `mybike`**
 ```bash
 ansible-playbook myvars2.yml -e mycar="Rolls-Royce" -e mybike="Yamaha" 
 ```
-![myvars2-mycar-mybike](myvars2-mycar-mybike.png)
+![myvars2-mycar-mybike](assets/myvars2-mycar-mybike.png)
 
 16. **Créer un dossier `group_vars` dans la racine du projet**
 ```bash
@@ -171,7 +171,7 @@ Aucune sortie, le fichier `myvars3.yml` est correct
 ```bash
 ansible-playbook myvars3.yml
 ```
-![myvars3](myvars3.png)
+![myvars3](assets/myvars3.png)
 
 23. **Création d'un playbook (variables interactives)**
 ```bash
@@ -209,10 +209,10 @@ Mais bon c'est pas grave je crois :)
 ```bash
 ansible-playbook display_user.yml
 ```
-![display_user](display_user.png)
+![display_user](assets/display_user.png)
 
 Si on ne rentre aucunes valeurs : \
-![display_user2](display_user2.png)
+![display_user2](assets/display_user2.png)
 
 26. **Quitter et supprimer**
 ```bash
