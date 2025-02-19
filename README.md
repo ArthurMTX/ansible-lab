@@ -33,3 +33,6 @@
   
 - **Atelier 17 : Cibles hétérogènes**
   [Accéder à Atelier 17](atelier-17.md)
+  
+- **Atelier 18 : Jinja & Templates**
+  [Accéder à Atelier 18](atelier-18.md)
