@@ -30,3 +30,6 @@
   
 - **Atelier 16 : Facts et variables implicites**
   [Accéder à Atelier 16](atelier-16.md)
+  
+- **Atelier 17 : Cibles hétérogènes**
+  [Accéder à Atelier 17](atelier-17.md)
